@@ -27,6 +27,7 @@ RowLayout {
         Layout.alignment: Qt.AlignVCenter | Qt.AlignLeft
         implicitWidth: controlSmallerSize
         implicitHeight: implicitWidth
+        visible: root.canGoPrevious
         enabled: playerControls.enabled && root.canGoPrevious
 
         icon.name: LayoutMirroring.enabled ? "media-skip-forward" : "media-skip-backward"
@@ -52,6 +53,7 @@ RowLayout {
         Layout.alignment: Qt.AlignVCenter | Qt.AlignRight
         implicitWidth: controlSmallerSize
         implicitHeight: implicitWidth
+        visible: root.canGoNext
         enabled: playerControls.enabled && root.canGoNext
 
         icon.name: LayoutMirroring.enabled ? "media-skip-backward" : "media-skip-forward"

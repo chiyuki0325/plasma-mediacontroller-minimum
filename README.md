@@ -1,6 +1,6 @@
 # Minimum Media Controller
 
-This widget is a fork of Plasma's built-in media contoller widget, providing a minimim media info & controller bar for Plasma 6.
+This widget is a fork of Plasma's built-in media contoller widget, providing a minimum media info & controller bar for Plasma 6.
 
 It refers to [mediacontroller_plus](https://github.com/ismailof/mediacontroller_plus) and [kde-currently-playing](https://github.com/JunoNgx/kde-currently-playing).
 

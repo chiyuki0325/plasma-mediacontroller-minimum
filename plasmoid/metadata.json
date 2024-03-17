@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "me@chyk.ink",
+                "Name": ""
+            }
+        ],
+        "Category": "Multimedia",
+        "Description": "A minimal media controller widget.",
+        "Icon": "preferences-media-playback-amarok",
+        "Id": "ink.chyk.minimumMediaController",
+        "License": "GPLv3",
+        "Name": "Mininum Media Controller",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
